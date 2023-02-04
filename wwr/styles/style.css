@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color:#4aad52;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -27,10 +30,18 @@ main section {
 
 body {
     background-color: white;
+    font-family: 'Noto Serif';
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
     background-color: white;
+    font-family: 'Playfair Display';
 }
 
 nav a:hover {
@@ -42,6 +53,10 @@ nav a:hover {
     background-color: white;
     color: #4aad52;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -55,19 +70,26 @@ nav a:hover {
 
 .msg {
     background-color: #dde3e2;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color:#348aa7;
+    font-family: 'Playfair Display';
 }
 
 .msg p {
-    color: black
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #348aa7;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -89,6 +111,9 @@ footer p a:hover {
 
 .home-title {
     color: #348aa7;
+    font-family: 'Playfair Display';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -97,4 +122,25 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #b85b3b;
+}
+
+main section img {
+    box-sizing: border-box;
 }
